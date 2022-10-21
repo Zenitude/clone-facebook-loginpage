@@ -1,0 +1,20 @@
+@import url('global.css');
+@import url('footer.css');
+@import url('login-page.css');
+
+@media all and (max-width:915px)
+{
+    .containerCards
+    {
+        justify-content: center;
+        padding-right: 5px;
+    }
+}
+
+@media all and (max-width: 420px)
+{
+    .containerMain
+    {
+        width: 100%!important;
+    }
+}
