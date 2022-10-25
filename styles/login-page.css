@@ -21,7 +21,7 @@ main .containerMain
 .accountExist, .sign
 {
     width: 50%;
-    min-width: 320px;
+    min-width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -186,7 +186,7 @@ main .containerMain
 .signPeople
 {
     width: 100%;
-    min-width: 300px;
+    min-width: 260px;
     height: 350px;
     margin: auto;
     padding: 15px;
@@ -278,7 +278,7 @@ main .containerMain
 {
     color: #000;
     width: 100%;
-    min-width: 300px;
+    min-width: 280px;
     height: auto;
     margin: 20px auto 0;
     font-size: 0.9em;
