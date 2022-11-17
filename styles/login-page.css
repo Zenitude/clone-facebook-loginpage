@@ -31,6 +31,10 @@ main .containerMain
 
 /* Left section */
 
+.accountExist {
+    padding: 15px;
+}
+
 .accountExist h1
 {
     width: 100%;
@@ -45,16 +49,15 @@ main .containerMain
 {
     width: 100%;
     font-weight: normal;
-    margin-left: 15px;
 }
 
 .accountExist p
 {   
     width: 100%;
-    margin-left: 16px;
     font-size: 0.85em;
     text-align: start;
     color: rgba(97, 93, 93,0.8);
+    word-wrap: break-word;
 }
 
 /* Cards */
