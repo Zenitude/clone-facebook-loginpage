@@ -3,7 +3,6 @@
 main
 {
     width: 100%;
-    height: auto;
     flex-grow: 1;
     background-color: var(--backgroundMain);
 }
@@ -45,16 +44,14 @@ main .containerMain
 {
     width: 100%;
     font-weight: normal;
-    margin-left: 15px;
 }
 
 .accountExist p
 {   
     width: 100%;
-    margin-left: 16px;
     font-size: 0.85em;
-    text-align: start;
     color: rgba(97, 93, 93,0.8);
+    word-wrap: break-word;
 }
 
 /* Cards */
@@ -80,7 +77,6 @@ main .containerMain
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    overflow: hidden;
 }
 
 .card a
@@ -196,7 +192,6 @@ main .containerMain
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    position: relative;
 }
 
 .signPeople form
@@ -257,7 +252,7 @@ main .containerMain
 /* Separator */
 .signPeople hr
 {
-    width: 95%;
+    width: 100%;
     height: 2px;
     background-color: rgba(97, 93, 93,0.8);
 }
