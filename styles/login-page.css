@@ -30,6 +30,10 @@ main .containerMain
 
 /* Left section */
 
+.accountExist {
+    padding: 15px;
+}
+
 .accountExist h1
 {
     width: 100%;
